@@ -2,12 +2,12 @@
 
 ## my own programming language
 
-Created in fully in 'Java'.
+Created in fully in _Java_.
 
 it has limited functionality yet. but it can be a good guide for someone looking to create a programming language in Java.
 
 ## Transpiler
-It has transpiler to transpiling into 'Java: HOST language'.
+It has transpiler to transpiling into _Java: HOST language_.
 
 ## Compiler
 I have created a different folder for compiler. Added everything, if you want to build your own compiler.
