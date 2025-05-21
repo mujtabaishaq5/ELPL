@@ -12,7 +12,7 @@ Created a compiler. Just an idea, so you can follow to furthered it as you like.
 
 ## Extension 
 
-It has some extension files for VS code extension though extension is not yet published. `files are in *.elpl* format`
+It has some extension files for VS code extension though extension is not yet published. `files are .elpl`
 
 ## Fucntionality
 
