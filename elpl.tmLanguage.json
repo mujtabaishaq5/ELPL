@@ -1,0 +1,33 @@
+{
+	"scopeName": "source.elpl",
+	"name": "ELPL",
+	"patterns": [
+	  {
+		"name": "comment.line.slash.elpl",
+		"match": "^/.*$"
+	  },
+	  {
+		"name": "comment.block.angle.elpl",
+		"begin": ">",
+		"end": "<"
+	  },
+	  {
+		"name": "keyword.control.elpl",
+		"match": "\\b(let|be|if|then|otherwise|print|add|subtract|multiply|divide)\\b"
+	  },
+	  {
+		"name": "string.quoted.double.elpl",
+		"begin": "\"",
+		"end": "\""
+	  },
+	  {
+		"name": "constant.numeric.elpl",
+		"match": "\\b\\d+\\b"
+	  },
+	  {
+		"name": "variable.other.elpl",
+		"match": "\\b[a-zA-Z_][a-zA-Z0-9_]*\\b"
+	  }
+	]
+  }
+  

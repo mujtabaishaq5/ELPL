@@ -1,0 +1,30 @@
+{
+  "name": "elpl-syntax",
+  "displayName": "ELPL",
+  "description": "ELPL language created by Mujtaba Ishaq.",
+  "version": "0.0.1",
+  "icon": "icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mujtabaishaq5/elpl-syntax"
+  },
+  "engines": {
+    "vscode": "^1.100.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "elpl",
+      "aliases": ["ELPL", "elpl"],
+      "extensions": [".elpl"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "elpl",
+      "scopeName": "source.elpl",
+      "path": "./syntaxes/elpl.tmLanguage.json"
+    }]
+  }
+}
