@@ -1,0 +1,9 @@
+repeat 5 times {
+  print "Hello"
+}
+
+function greet {
+  print "Hi"
+}
+
+call greet

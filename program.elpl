@@ -1,0 +1,21 @@
+let x be 2
+/let y be 4
+/let a be 4
+/let b be 5
+
+/ if x is greater than y then print "x is bigger" otherwise print "x is not bigger"
+
+/print x
+
+/ print b
+
+/ This is a single-line comment
+
+let x be 5
+
+> This is a 
+multi-line comment <
+print "x is " x
+
+
+
